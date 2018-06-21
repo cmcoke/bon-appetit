@@ -1773,3 +1773,68 @@ a{
         height: 600px
 }
     }
+.hero {
+  position: relative;
+
+
+}
+.hero__text-content {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    left: 0;
+    width: 100%;
+    text-align: center;
+  }
+.hero__small-title{
+    color: #f2c425;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 2.5rem;
+    margin-bottom: 0;
+
+  }
+@media(min-width:768px) and (max-width: 991px){
+.hero__small-title{
+      font-size:3.125rem
+
+  }
+  }
+@media(min-width:992px) and (max-width: 1280px){
+.hero__small-title{
+      font-size: 4.375rem
+
+  }
+  }
+@media(min-width:1281px){
+.hero__small-title{
+      font-size: 5.9375rem
+
+  }
+  }
+.hero__large-title{
+    color:#fff;
+    font-family: 'Oswald', sans-serif;
+    font-size:3.125rem;
+    text-transform: uppercase;
+    margin-top: 0;
+
+  }
+@media(min-width:768px) and (max-width: 991px){
+.hero__large-title{
+      font-size: 3.75rem
+
+  }
+  }
+@media(min-width:992px) and (max-width: 1280px){
+.hero__large-title{
+      font-size: 5rem
+
+  }
+  }
+@media(min-width:1281px){
+.hero__large-title{
+      font-size: 7.5rem
+
+  }
+  }

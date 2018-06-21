@@ -48,11 +48,16 @@
   <!-- HERO -->
   <section class="hero" data-matching-link="#home-link">
 
-    <img src="http://via.placeholder.com/1920x900" alt="">
+    <picture>
+      <source srcset="assets/images/hero--desktop.jpg 1920w, assets/images/hero--desktop-hi-dpi.jpg 3840w" media="(min-width: 1380px)">
+      <source srcset="assets/images/hero--tablet-landscape.jpg 1380w, assets/images/hero--tablet-landscape.jpg 2760w " media="(min-width: 768px)">
+      <source srcset="assets/images/hero--mobile-landscape.jpg 990w, assets/images/hero--tablet-landscape-hi-dpi.jpg 1980w" media="(min-width: 640px)">
+      <img srcset="assets/images/hero--mobile-portrait.jpg 640w, assets/images/hero--mobile-portrait-hi-dpi.jpg 1280w" alt="inside the restaurant" class="flex-img">
+    </picture>
 
     <div class="hero__text-content">
       <div class="container">
-        <h3 class="hero__small-title">welcome</h3>
+        <h3 class="hero__small-title">welcome to</h3>
         <h1 class="hero__large-title">Bon Appétit</h1>
       </div>
     </div>
