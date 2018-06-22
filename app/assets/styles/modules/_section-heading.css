@@ -1,0 +1,30 @@
+.section-heading{
+  font-family: $oswald;
+  text-transform: uppercase;
+
+  &--small{
+    font-weight: 100;
+
+    @mixin atExLarge{
+      font-size: 1.125rem;
+    }
+  }
+
+  &--large{
+    font-size: 1.75rem;
+
+    @mixin atMedium{
+      font-size: 2.0625rem;
+    }
+
+    @mixin atLarge{
+      font-size: 2.0625rem;
+    }
+
+    @mixin atExLarge{
+      font-size: 2.5rem;
+    }
+
+  }
+
+}
