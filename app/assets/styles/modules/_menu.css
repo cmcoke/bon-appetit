@@ -1,0 +1,19 @@
+.menu{
+  font-family: $oswald;
+  text-transform: uppercase;
+
+  &__item{
+    background-color: black;
+    padding: 0.8125rem;
+  }
+
+  &--item-large-text{
+    margin: 0.4375rem 0 0.625rem 0;
+    color: #fff;
+  }
+
+  &--item-small-text{
+    color: $yellow;
+  }
+
+}

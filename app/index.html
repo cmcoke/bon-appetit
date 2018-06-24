@@ -33,7 +33,7 @@
       <nav class="site-menu">
         <ul>
           <li><a href="#home" id="home-link">Home</a></li>
-          <li><a href="#about" id="about-link">About Us</a></li>
+          <li><a href="#about" id="about-link">About</a></li>
           <li><a href="#menu" id="menu-link">Menu</a></li>
           <li><a href="#reviews" id="reviews">Reviews</a></li>
           <li><a href="#reservation" id="reservation-link">Reservation</a></li>
@@ -70,13 +70,10 @@
 
     <div class="container">
 
+      <h4 class="section-heading section-heading--small">About Us</h4>
+      <h1 class="section-heading section-heading--large">The Story of Bon Appétit</h1>
+
       <div class="grid">
-
-        <div class="col-xs-12">
-          <h4 class="section-heading section-heading--small">About</h4>
-          <h1 class="section-heading section-heading--large">The Story of Bon Appétit</h1>
-        </div>
-
         <div class="col-xs-12 col-sm-8">
           <div class="generic-content">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus pulvinar libero ut diam pretium elementum. Ut vel dictum turpis. In hac habitasse platea dictumst. Vivamus accumsan mauris sem, eget dapibus arcu efficitur vulputate. Curabitur
@@ -88,18 +85,16 @@
         </div>
 
         <div class="col-xs-12 col-sm-4">
-
           <picture>
             <source srcset="assets/images/about--desktop.jpg 433w, assets/images/about--desktop-hi-dpi.jpg 866w" media="(min-width: 1380px)">
-              <source srcset="assets/images/about--tablet-landscape.jpg 400w, assets/images/about--tablet-landscape-hi-dpi.jpg 800w " media="(min-width: 1024px)">
+            <source srcset="assets/images/about--tablet-landscape.jpg 400w, assets/images/about--tablet-landscape-hi-dpi.jpg 800w " media="(min-width: 1024px)">
             <source srcset="assets/images/about--tablet-portrait.jpg 400w, assets/images/about--tablet-portrait.jpg 800w " media="(min-width: 768px)">
             <source srcset="assets/images/about--mobile-landscape.jpg 800w, assets/images/about--mobile-landscape-hi-dpi.jpg 1600w" media="(min-width: 640px)">
             <img srcset="assets/images/about--mobile-portrait.jpg 565w, assets/images/about--mobile-portrait-hi-dpi.jpg 1130w" alt="a chef preparing food" class="flex-img">
           </picture>
-
         </div>
-
       </div>
+
 
     </div>
 
@@ -107,102 +102,514 @@
 
 
   <!-- MENU -->
-  <section id="menu" class="page-section" data-matching-link="#menu-link">
+  <section id="menu" class="page-section menu" data-matching-link="#menu-link">
 
     <div class="container">
 
-      <div class="grid">
+      <h4 class="section-heading section-heading--small">Feautured Menu</h4>
+      <h1 class="section-heading section-heading--large">Explore our popular dishes &amp; beverages</h1>
 
-        <div class="col-xs-12">
-          <h4 class="section-heading section-heading--small">Feautured Menu</h4>
-          <h1 class="section-heading section-heading--large">Explore our popular dishes &amp; beverages</h1>
+      <div class="tab">
+
+        <ul class="tab__menu">
+          <li><a href="#tab1">Breakfast</a></li>
+          <li><a href="#tab2">Lunch</a></li>
+          <li><a href="#tab3">Dinner</a></li>
+          <li><a href="#tab4">Beverages</a></li>
+        </ul>
+
+        <div class="tab__container">
+
+          <!-- TAB 1 (BREAKFAST) -->
+          <div id="tab1">
+
+            <div class="grid">
+
+              <div class="col-xs-12 col-sm-6 col-md-3 ">
+                <picture>
+                  <source srcset="assets/images/br1--desktop.jpg 433w, assets/images/br1--desktop-hi-dpi.jpg 866w" media="(min-width: 1380px)">
+                  <source srcset="assets/images/br1--tablet-landscape.jpg 400w, assets/images/br1--tablet-landscape-hi-dpi.jpg 800w " media="(min-width: 1024px)">
+                  <source srcset="assets/images/br1--tablet-portrait.jpg 400w, assets/images/br1--tablet-portrait.jpg 800w " media="(min-width: 768px)">
+                  <source srcset="assets/images/br1--mobile-landscape.jpg 800w, assets/images/br1--mobile-landscape-hi-dpi.jpg 1600w" media="(min-width: 640px)">
+                  <img srcset="assets/images/br1--mobile-portrait.jpg 300w, assets/images/br1--mobile-portrait-hi-dpi.jpg 1130w" alt="menu item" class="flex-img">
+                </picture>
+                <div class="menu__item">
+                  <h4 class="menu--item-large-text">Menu Item</h4>
+                  <span class="menu--item-small-text">&#36;40</span>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-sm-6 col-md-3 ">
+                <picture>
+                  <source srcset="assets/images/br2--desktop.jpg 433w, assets/images/br2--desktop-hi-dpi.jpg 866w" media="(min-width: 1380px)">
+                  <source srcset="assets/images/br2--tablet-landscape.jpg 400w, assets/images/br2--tablet-landscape-hi-dpi.jpg 800w " media="(min-width: 1024px)">
+                  <source srcset="assets/images/br2--tablet-portrait.jpg 400w, assets/images/br2--tablet-portrait.jpg 800w " media="(min-width: 768px)">
+                  <source srcset="assets/images/br2--mobile-landscape.jpg 800w, assets/images/br2--mobile-landscape-hi-dpi.jpg 1600w" media="(min-width: 640px)">
+                  <img srcset="assets/images/br2--mobile-portrait.jpg 300w, assets/images/br2--mobile-portrait-hi-dpi.jpg 1130w" alt="menu item" class="flex-img">
+                </picture>
+                <div class="menu__item">
+                  <h4 class="menu--item-large-text">Menu Item</h4>
+                  <span class="menu--item-small-text">&#36;40</span>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-sm-6 col-md-3 ">
+                <picture>
+                  <source srcset="assets/images/br3--desktop.jpg 433w, assets/images/br3--desktop-hi-dpi.jpg 866w" media="(min-width: 1380px)">
+                  <source srcset="assets/images/br3--tablet-landscape.jpg 400w, assets/images/br3--tablet-landscape-hi-dpi.jpg 800w " media="(min-width: 1024px)">
+                  <source srcset="assets/images/br3--tablet-portrait.jpg 400w, assets/images/br3--tablet-portrait.jpg 800w " media="(min-width: 768px)">
+                  <source srcset="assets/images/br3--mobile-landscape.jpg 800w, assets/images/br3--mobile-landscape-hi-dpi.jpg 1600w" media="(min-width: 640px)">
+                  <img srcset="assets/images/br3--mobile-portrait.jpg 300w, assets/images/br3--mobile-portrait-hi-dpi.jpg 1130w" alt="menu item" class="flex-img">
+                </picture>
+                <div class="menu__item">
+                  <h4 class="menu--item-large-text">Menu Item</h4>
+                  <span class="menu--item-small-text">&#36;40</span>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-sm-6 col-md-3 ">
+                <picture>
+                  <source srcset="assets/images/br4--desktop.jpg 433w, assets/images/br4--desktop-hi-dpi.jpg 866w" media="(min-width: 1380px)">
+                  <source srcset="assets/images/br4--tablet-landscape.jpg 400w, assets/images/br4--tablet-landscape-hi-dpi.jpg 800w " media="(min-width: 1024px)">
+                  <source srcset="assets/images/br4--tablet-portrait.jpg 400w, assets/images/br4--tablet-portrait.jpg 800w " media="(min-width: 768px)">
+                  <source srcset="assets/images/br4--mobile-landscape.jpg 800w, assets/images/br4--mobile-landscape-hi-dpi.jpg 1600w" media="(min-width: 640px)">
+                  <img srcset="assets/images/br4--mobile-portrait.jpg 300w, assets/images/br4--mobile-portrait-hi-dpi.jpg 1130w" alt="menu item" class="flex-img">
+                </picture>
+                <div class="menu__item">
+                  <h4 class="menu--item-large-text">Menu Item</h4>
+                  <span class="menu--item-small-text">&#36;40</span>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-sm-6 col-md-3 ">
+                <picture>
+                  <source srcset="assets/images/br5--desktop.jpg 433w, assets/images/br5--desktop-hi-dpi.jpg 866w" media="(min-width: 1380px)">
+                  <source srcset="assets/images/br5--tablet-landscape.jpg 400w, assets/images/br5--tablet-landscape-hi-dpi.jpg 800w " media="(min-width: 1024px)">
+                  <source srcset="assets/images/br5--tablet-portrait.jpg 400w, assets/images/br5--tablet-portrait.jpg 800w " media="(min-width: 768px)">
+                  <source srcset="assets/images/br5--mobile-landscape.jpg 800w, assets/images/br5--mobile-landscape-hi-dpi.jpg 1600w" media="(min-width: 640px)">
+                  <img srcset="assets/images/br5--mobile-portrait.jpg 300w, assets/images/br5--mobile-portrait-hi-dpi.jpg 1130w" alt="menu item" class="flex-img">
+                </picture>
+                <div class="menu__item">
+                  <h4 class="menu--item-large-text">Menu Item</h4>
+                  <span class="menu--item-small-text">&#36;40</span>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-sm-6 col-md-3 ">
+                <picture>
+                  <source srcset="assets/images/br6--desktop.jpg 433w, assets/images/br6--desktop-hi-dpi.jpg 866w" media="(min-width: 1380px)">
+                  <source srcset="assets/images/br6--tablet-landscape.jpg 400w, assets/images/br6--tablet-landscape-hi-dpi.jpg 800w " media="(min-width: 1024px)">
+                  <source srcset="assets/images/br6--tablet-portrait.jpg 400w, assets/images/br6--tablet-portrait.jpg 800w " media="(min-width: 768px)">
+                  <source srcset="assets/images/br6--mobile-landscape.jpg 800w, assets/images/br6--mobile-landscape-hi-dpi.jpg 1600w" media="(min-width: 640px)">
+                  <img srcset="assets/images/br6--mobile-portrait.jpg 300w, assets/images/br6--mobile-portrait-hi-dpi.jpg 1130w" alt="menu item" class="flex-img">
+                </picture>
+                <div class="menu__item">
+                  <h4 class="menu--item-large-text">Menu Item</h4>
+                  <span class="menu--item-small-text">&#36;40</span>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-sm-6 col-md-3 ">
+                <picture>
+                  <source srcset="assets/images/br7--desktop.jpg 433w, assets/images/br7--desktop-hi-dpi.jpg 866w" media="(min-width: 1380px)">
+                  <source srcset="assets/images/br7--tablet-landscape.jpg 400w, assets/images/br7--tablet-landscape-hi-dpi.jpg 800w " media="(min-width: 1024px)">
+                  <source srcset="assets/images/br7--tablet-portrait.jpg 400w, assets/images/br7--tablet-portrait.jpg 800w " media="(min-width: 768px)">
+                  <source srcset="assets/images/br7--mobile-landscape.jpg 800w, assets/images/br7--mobile-landscape-hi-dpi.jpg 1600w" media="(min-width: 640px)">
+                  <img srcset="assets/images/br7--mobile-portrait.jpg 300w, assets/images/br7--mobile-portrait-hi-dpi.jpg 1130w" alt="menu item" class="flex-img">
+                </picture>
+                <div class="menu__item">
+                  <h4 class="menu--item-large-text">Menu Item</h4>
+                  <span class="menu--item-small-text">&#36;40</span>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-sm-6 col-md-3 ">
+                <picture>
+                  <source srcset="assets/images/br8--desktop.jpg 433w, assets/images/br8--desktop-hi-dpi.jpg 866w" media="(min-width: 1380px)">
+                  <source srcset="assets/images/br8--tablet-landscape.jpg 400w, assets/images/br8--tablet-landscape-hi-dpi.jpg 800w " media="(min-width: 1024px)">
+                  <source srcset="assets/images/br8--tablet-portrait.jpg 400w, assets/images/br8--tablet-portrait.jpg 800w " media="(min-width: 768px)">
+                  <source srcset="assets/images/br8--mobile-landscape.jpg 800w, assets/images/br8--mobile-landscape-hi-dpi.jpg 1600w" media="(min-width: 640px)">
+                  <img srcset="assets/images/br8--mobile-portrait.jpg 300w, assets/images/br8--mobile-portrait-hi-dpi.jpg 1130w" alt="menu item" class="flex-img">
+                </picture>
+                <div class="menu__item">
+                  <h4 class="menu--item-large-text">Menu Item</h4>
+                  <span class="menu--item-small-text">&#36;40</span>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+
+          <!-- TAB 2 (LUNCH) -->
+          <!-- <div id="tab2">
+
+            <div class="grid">
+
+              <div class="col-xs-12 col-sm-6 col-md-3 ">
+                <picture>
+                  <source srcset="assets/images/lu1--desktop.jpg 433w, assets/images/lu1--desktop-hi-dpi.jpg 866w" media="(min-width: 1380px)">
+                  <source srcset="assets/images/lu1--tablet-landscape.jpg 400w, assets/images/lu1--tablet-landscape-hi-dpi.jpg 800w " media="(min-width: 1024px)">
+                  <source srcset="assets/images/lu1--tablet-portrait.jpg 400w, assets/images/lu1--tablet-portrait.jpg 800w " media="(min-width: 768px)">
+                  <source srcset="assets/images/lu1--mobile-landscape.jpg 800w, assets/images/lu1--mobile-landscape-hi-dpi.jpg 1600w" media="(min-width: 640px)">
+                  <img srcset="assets/images/lu1--mobile-portrait.jpg 300w, assets/images/lu1--mobile-portrait-hi-dpi.jpg 1130w" alt="menu item" class="flex-img">
+                </picture>
+                <div class="menu__item">
+                  <h4 class="menu--item-large-text">Menu Item</h4>
+                  <span class="menu--item-small-text">&#36;40</span>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-sm-6 col-md-3 ">
+                <picture>
+                  <source srcset="assets/images/lu2--desktop.jpg 433w, assets/images/lu2--desktop-hi-dpi.jpg 866w" media="(min-width: 1380px)">
+                  <source srcset="assets/images/lu2--tablet-landscape.jpg 400w, assets/images/lu2--tablet-landscape-hi-dpi.jpg 800w " media="(min-width: 1024px)">
+                  <source srcset="assets/images/lu2--tablet-portrait.jpg 400w, assets/images/lu2--tablet-portrait.jpg 800w " media="(min-width: 768px)">
+                  <source srcset="assets/images/lu2--mobile-landscape.jpg 800w, assets/images/lu2--mobile-landscape-hi-dpi.jpg 1600w" media="(min-width: 640px)">
+                  <img srcset="assets/images/lu2--mobile-portrait.jpg 300w, assets/images/lu2--mobile-portrait-hi-dpi.jpg 1130w" alt="menu item" class="flex-img">
+                </picture>
+                <div class="menu__item">
+                  <h4 class="menu--item-large-text">Menu Item</h4>
+                  <span class="menu--item-small-text">&#36;40</span>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-sm-6 col-md-3 ">
+                <picture>
+                  <source srcset="assets/images/lu3--desktop.jpg 433w, assets/images/lu3--desktop-hi-dpi.jpg 866w" media="(min-width: 1380px)">
+                  <source srcset="assets/images/lu3--tablet-landscape.jpg 400w, assets/images/lu3--tablet-landscape-hi-dpi.jpg 800w " media="(min-width: 1024px)">
+                  <source srcset="assets/images/lu3--tablet-portrait.jpg 400w, assets/images/lu3--tablet-portrait.jpg 800w " media="(min-width: 768px)">
+                  <source srcset="assets/images/lu3--mobile-landscape.jpg 800w, assets/images/lu3--mobile-landscape-hi-dpi.jpg 1600w" media="(min-width: 640px)">
+                  <img srcset="assets/images/lu3--mobile-portrait.jpg 300w, assets/images/lu3--mobile-portrait-hi-dpi.jpg 1130w" alt="menu item" class="flex-img">
+                </picture>
+                <div class="menu__item">
+                  <h4 class="menu--item-large-text">Menu Item</h4>
+                  <span class="menu--item-small-text">&#36;40</span>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-sm-6 col-md-3 ">
+                <picture>
+                  <source srcset="assets/images/lu4--desktop.jpg 433w, assets/images/lu4--desktop-hi-dpi.jpg 866w" media="(min-width: 1380px)">
+                  <source srcset="assets/images/lu4--tablet-landscape.jpg 400w, assets/images/lu4--tablet-landscape-hi-dpi.jpg 800w " media="(min-width: 1024px)">
+                  <source srcset="assets/images/lu4--tablet-portrait.jpg 400w, assets/images/lu4--tablet-portrait.jpg 800w " media="(min-width: 768px)">
+                  <source srcset="assets/images/lu4--mobile-landscape.jpg 800w, assets/images/lu4--mobile-landscape-hi-dpi.jpg 1600w" media="(min-width: 640px)">
+                  <img srcset="assets/images/lu4--mobile-portrait.jpg 300w, assets/images/lu4--mobile-portrait-hi-dpi.jpg 1130w" alt="menu item" class="flex-img">
+                </picture>
+                <div class="menu__item">
+                  <h4 class="menu--item-large-text">Menu Item</h4>
+                  <span class="menu--item-small-text">&#36;40</span>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-sm-6 col-md-3 ">
+                <picture>
+                  <source srcset="assets/images/lu5--desktop.jpg 433w, assets/images/lu5--desktop-hi-dpi.jpg 866w" media="(min-width: 1380px)">
+                  <source srcset="assets/images/lu5--tablet-landscape.jpg 400w, assets/images/lu5--tablet-landscape-hi-dpi.jpg 800w " media="(min-width: 1024px)">
+                  <source srcset="assets/images/lu5--tablet-portrait.jpg 400w, assets/images/lu5--tablet-portrait.jpg 800w " media="(min-width: 768px)">
+                  <source srcset="assets/images/lu5--mobile-landscape.jpg 800w, assets/images/lu5--mobile-landscape-hi-dpi.jpg 1600w" media="(min-width: 640px)">
+                  <img srcset="assets/images/lu5--mobile-portrait.jpg 300w, assets/images/lu5--mobile-portrait-hi-dpi.jpg 1130w" alt="menu item" class="flex-img">
+                </picture>
+                <div class="menu__item">
+                  <h4 class="menu--item-large-text">Menu Item</h4>
+                  <span class="menu--item-small-text">&#36;40</span>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-sm-6 col-md-3 ">
+                <picture>
+                  <source srcset="assets/images/lu6--desktop.jpg 433w, assets/images/lu6--desktop-hi-dpi.jpg 866w" media="(min-width: 1380px)">
+                  <source srcset="assets/images/lu6--tablet-landscape.jpg 400w, assets/images/lu6--tablet-landscape-hi-dpi.jpg 800w " media="(min-width: 1024px)">
+                  <source srcset="assets/images/lu6--tablet-portrait.jpg 400w, assets/images/lu6--tablet-portrait.jpg 800w " media="(min-width: 768px)">
+                  <source srcset="assets/images/lu6--mobile-landscape.jpg 800w, assets/images/lu6--mobile-landscape-hi-dpi.jpg 1600w" media="(min-width: 640px)">
+                  <img srcset="assets/images/lu6--mobile-portrait.jpg 300w, assets/images/lu6--mobile-portrait-hi-dpi.jpg 1130w" alt="menu item" class="flex-img">
+                </picture>
+                <div class="menu__item">
+                  <h4 class="menu--item-large-text">Menu Item</h4>
+                  <span class="menu--item-small-text">&#36;40</span>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-sm-6 col-md-3 ">
+                <picture>
+                  <source srcset="assets/images/lu7--desktop.jpg 433w, assets/images/lu7--desktop-hi-dpi.jpg 866w" media="(min-width: 1380px)">
+                  <source srcset="assets/images/lu7--tablet-landscape.jpg 400w, assets/images/lu7--tablet-landscape-hi-dpi.jpg 800w " media="(min-width: 1024px)">
+                  <source srcset="assets/images/lu7--tablet-portrait.jpg 400w, assets/images/lu7--tablet-portrait.jpg 800w " media="(min-width: 768px)">
+                  <source srcset="assets/images/lu7--mobile-landscape.jpg 800w, assets/images/lu7--mobile-landscape-hi-dpi.jpg 1600w" media="(min-width: 640px)">
+                  <img srcset="assets/images/lu7--mobile-portrait.jpg 300w, assets/images/lu7--mobile-portrait-hi-dpi.jpg 1130w" alt="menu item" class="flex-img">
+                </picture>
+                <div class="menu__item">
+                  <h4 class="menu--item-large-text">Menu Item</h4>
+                  <span class="menu--item-small-text">&#36;40</span>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-sm-6 col-md-3 ">
+                <picture>
+                  <source srcset="assets/images/lu8--desktop.jpg 433w, assets/images/lu8--desktop-hi-dpi.jpg 866w" media="(min-width: 1380px)">
+                  <source srcset="assets/images/lu8--tablet-landscape.jpg 400w, assets/images/lu8--tablet-landscape-hi-dpi.jpg 800w " media="(min-width: 1024px)">
+                  <source srcset="assets/images/lu8--tablet-portrait.jpg 400w, assets/images/lu8--tablet-portrait.jpg 800w " media="(min-width: 768px)">
+                  <source srcset="assets/images/lu8--mobile-landscape.jpg 800w, assets/images/lu8--mobile-landscape-hi-dpi.jpg 1600w" media="(min-width: 640px)">
+                  <img srcset="assets/images/lu8--mobile-portrait.jpg 300w, assets/images/lu8--mobile-portrait-hi-dpi.jpg 1130w" alt="menu item" class="flex-img">
+                </picture>
+                <div class="menu__item">
+                  <h4 class="menu--item-large-text">Menu Item</h4>
+                  <span class="menu--item-small-text">&#36;40</span>
+                </div>
+              </div>
+
+            </div>
+
+          </div> -->
+
+
+          <!-- TAB 3 (DINNER)-->
+          <!-- <div id="tab3">
+
+            <div class="grid">
+
+              <div class="col-xs-12 col-sm-6 col-md-3 ">
+                <picture>
+                  <source srcset="assets/images/di1--desktop.jpg 433w, assets/images/di1--desktop-hi-dpi.jpg 866w" media="(min-width: 1380px)">
+                  <source srcset="assets/images/di1--tablet-landscape.jpg 400w, assets/images/di1--tablet-landscape-hi-dpi.jpg 800w " media="(min-width: 1024px)">
+                  <source srcset="assets/images/di1--tablet-portrait.jpg 400w, assets/images/di1--tablet-portrait.jpg 800w " media="(min-width: 768px)">
+                  <source srcset="assets/images/di1--mobile-landscape.jpg 800w, assets/images/di1--mobile-landscape-hi-dpi.jpg 1600w" media="(min-width: 640px)">
+                  <img srcset="assets/images/di1--mobile-portrait.jpg 300w, assets/images/di1--mobile-portrait-hi-dpi.jpg 1130w" alt="menu item" class="flex-img">
+                </picture>
+                <div class="menu__item">
+                  <h4 class="menu--item-large-text">Menu Item</h4>
+                  <span class="menu--item-small-text">&#36;40</span>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-sm-6 col-md-3 ">
+                <picture>
+                  <source srcset="assets/images/di2--desktop.jpg 433w, assets/images/di2--desktop-hi-dpi.jpg 866w" media="(min-width: 1380px)">
+                  <source srcset="assets/images/di2--tablet-landscape.jpg 400w, assets/images/di2--tablet-landscape-hi-dpi.jpg 800w " media="(min-width: 1024px)">
+                  <source srcset="assets/images/di2--tablet-portrait.jpg 400w, assets/images/di2--tablet-portrait.jpg 800w " media="(min-width: 768px)">
+                  <source srcset="assets/images/di2--mobile-landscape.jpg 800w, assets/images/di2--mobile-landscape-hi-dpi.jpg 1600w" media="(min-width: 640px)">
+                  <img srcset="assets/images/di2--mobile-portrait.jpg 300w, assets/images/di2--mobile-portrait-hi-dpi.jpg 1130w" alt="menu item" class="flex-img">
+                </picture>
+                <div class="menu__item">
+                  <h4 class="menu--item-large-text">Menu Item</h4>
+                  <span class="menu--item-small-text">&#36;40</span>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-sm-6 col-md-3 ">
+                <picture>
+                  <source srcset="assets/images/di3--desktop.jpg 433w, assets/images/di3--desktop-hi-dpi.jpg 866w" media="(min-width: 1380px)">
+                  <source srcset="assets/images/di3--tablet-landscape.jpg 400w, assets/images/di3--tablet-landscape-hi-dpi.jpg 800w " media="(min-width: 1024px)">
+                  <source srcset="assets/images/di3--tablet-portrait.jpg 400w, assets/images/di3--tablet-portrait.jpg 800w " media="(min-width: 768px)">
+                  <source srcset="assets/images/di3--mobile-landscape.jpg 800w, assets/images/di3--mobile-landscape-hi-dpi.jpg 1600w" media="(min-width: 640px)">
+                  <img srcset="assets/images/di3--mobile-portrait.jpg 300w, assets/images/di3--mobile-portrait-hi-dpi.jpg 1130w" alt="menu item" class="flex-img">
+                </picture>
+                <div class="menu__item">
+                  <h4 class="menu--item-large-text">Menu Item</h4>
+                  <span class="menu--item-small-text">&#36;40</span>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-sm-6 col-md-3 ">
+                <picture>
+                  <source srcset="assets/images/di4--desktop.jpg 433w, assets/images/di4--desktop-hi-dpi.jpg 866w" media="(min-width: 1380px)">
+                  <source srcset="assets/images/di4--tablet-landscape.jpg 400w, assets/images/di4--tablet-landscape-hi-dpi.jpg 800w " media="(min-width: 1024px)">
+                  <source srcset="assets/images/di4--tablet-portrait.jpg 400w, assets/images/di4--tablet-portrait.jpg 800w " media="(min-width: 768px)">
+                  <source srcset="assets/images/di4--mobile-landscape.jpg 800w, assets/images/di4--mobile-landscape-hi-dpi.jpg 1600w" media="(min-width: 640px)">
+                  <img srcset="assets/images/di4--mobile-portrait.jpg 300w, assets/images/di4--mobile-portrait-hi-dpi.jpg 1130w" alt="menu item" class="flex-img">
+                </picture>
+                <div class="menu__item">
+                  <h4 class="menu--item-large-text">Menu Item</h4>
+                  <span class="menu--item-small-text">&#36;40</span>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-sm-6 col-md-3 ">
+                <picture>
+                  <source srcset="assets/images/di5--desktop.jpg 433w, assets/images/di5--desktop-hi-dpi.jpg 866w" media="(min-width: 1380px)">
+                  <source srcset="assets/images/di5--tablet-landscape.jpg 400w, assets/images/di5--tablet-landscape-hi-dpi.jpg 800w " media="(min-width: 1024px)">
+                  <source srcset="assets/images/di5--tablet-portrait.jpg 400w, assets/images/di5--tablet-portrait.jpg 800w " media="(min-width: 768px)">
+                  <source srcset="assets/images/di5--mobile-landscape.jpg 800w, assets/images/di5--mobile-landscape-hi-dpi.jpg 1600w" media="(min-width: 640px)">
+                  <img srcset="assets/images/di5--mobile-portrait.jpg 300w, assets/images/di5--mobile-portrait-hi-dpi.jpg 1130w" alt="menu item" class="flex-img">
+                </picture>
+                <div class="menu__item">
+                  <h4 class="menu--item-large-text">Menu Item</h4>
+                  <span class="menu--item-small-text">&#36;40</span>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-sm-6 col-md-3 ">
+                <picture>
+                  <source srcset="assets/images/di6--desktop.jpg 433w, assets/images/di6--desktop-hi-dpi.jpg 866w" media="(min-width: 1380px)">
+                  <source srcset="assets/images/di6--tablet-landscape.jpg 400w, assets/images/di6--tablet-landscape-hi-dpi.jpg 800w " media="(min-width: 1024px)">
+                  <source srcset="assets/images/di6--tablet-portrait.jpg 400w, assets/images/di6--tablet-portrait.jpg 800w " media="(min-width: 768px)">
+                  <source srcset="assets/images/di6--mobile-landscape.jpg 800w, assets/images/di6--mobile-landscape-hi-dpi.jpg 1600w" media="(min-width: 640px)">
+                  <img srcset="assets/images/di6--mobile-portrait.jpg 300w, assets/images/di6--mobile-portrait-hi-dpi.jpg 1130w" alt="menu item" class="flex-img">
+                </picture>
+                <div class="menu__item">
+                  <h4 class="menu--item-large-text">Menu Item</h4>
+                  <span class="menu--item-small-text">&#36;40</span>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-sm-6 col-md-3 ">
+                <picture>
+                  <source srcset="assets/images/di7--desktop.jpg 433w, assets/images/di7--desktop-hi-dpi.jpg 866w" media="(min-width: 1380px)">
+                  <source srcset="assets/images/di7--tablet-landscape.jpg 400w, assets/images/di7--tablet-landscape-hi-dpi.jpg 800w " media="(min-width: 1024px)">
+                  <source srcset="assets/images/di7--tablet-portrait.jpg 400w, assets/images/di7--tablet-portrait.jpg 800w " media="(min-width: 768px)">
+                  <source srcset="assets/images/di7--mobile-landscape.jpg 800w, assets/images/di7--mobile-landscape-hi-dpi.jpg 1600w" media="(min-width: 640px)">
+                  <img srcset="assets/images/di7--mobile-portrait.jpg 300w, assets/images/di7--mobile-portrait-hi-dpi.jpg 1130w" alt="menu item" class="flex-img">
+                </picture>
+                <div class="menu__item">
+                  <h4 class="menu--item-large-text">Menu Item</h4>
+                  <span class="menu--item-small-text">&#36;40</span>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-sm-6 col-md-3 ">
+                <picture>
+                  <source srcset="assets/images/di8--desktop.jpg 433w, assets/images/di8--desktop-hi-dpi.jpg 866w" media="(min-width: 1380px)">
+                  <source srcset="assets/images/di8--tablet-landscape.jpg 400w, assets/images/di8--tablet-landscape-hi-dpi.jpg 800w " media="(min-width: 1024px)">
+                  <source srcset="assets/images/di8--tablet-portrait.jpg 400w, assets/images/di8--tablet-portrait.jpg 800w " media="(min-width: 768px)">
+                  <source srcset="assets/images/di8--mobile-landscape.jpg 800w, assets/images/di8--mobile-landscape-hi-dpi.jpg 1600w" media="(min-width: 640px)">
+                  <img srcset="assets/images/di8--mobile-portrait.jpg 300w, assets/images/di8--mobile-portrait-hi-dpi.jpg 1130w" alt="menu item" class="flex-img">
+                </picture>
+                <div class="menu__item">
+                  <h4 class="menu--item-large-text">Menu Item</h4>
+                  <span class="menu--item-small-text">&#36;40</span>
+                </div>
+              </div>
+
+            </div>
+
+          </div> -->
+
+
+          <!-- TAB 4 (BEVERAGES) -->
+          <!-- <div id="tab4">
+
+            <div class="grid">
+
+              <div class="col-xs-12 col-sm-6 col-md-3 ">
+                <picture>
+                  <source srcset="assets/images/bv1--desktop.jpg 433w, assets/images/bv1--desktop-hi-dpi.jpg 866w" media="(min-width: 1380px)">
+                  <source srcset="assets/images/bv1--tablet-landscape.jpg 400w, assets/images/bv1--tablet-landscape-hi-dpi.jpg 800w " media="(min-width: 1024px)">
+                  <source srcset="assets/images/bv1--tablet-portrait.jpg 400w, assets/images/bv1--tablet-portrait.jpg 800w " media="(min-width: 768px)">
+                  <source srcset="assets/images/bv1--mobile-landscape.jpg 800w, assets/images/bv1--mobile-landscape-hi-dpi.jpg 1600w" media="(min-width: 640px)">
+                  <img srcset="assets/images/bv1--mobile-portrait.jpg 300w, assets/images/bv1--mobile-portrait-hi-dpi.jpg 1130w" alt="menu item" class="flex-img">
+                </picture>
+                <div class="menu__item">
+                  <h4 class="menu--item-large-text">Menu Item</h4>
+                  <span class="menu--item-small-text">&#36;40</span>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-sm-6 col-md-3 ">
+                <picture>
+                  <source srcset="assets/images/bv2--desktop.jpg 433w, assets/images/bv2--desktop-hi-dpi.jpg 866w" media="(min-width: 1380px)">
+                  <source srcset="assets/images/bv2--tablet-landscape.jpg 400w, assets/images/bv2--tablet-landscape-hi-dpi.jpg 800w " media="(min-width: 1024px)">
+                  <source srcset="assets/images/bv2--tablet-portrait.jpg 400w, assets/images/bv2--tablet-portrait.jpg 800w " media="(min-width: 768px)">
+                  <source srcset="assets/images/bv2--mobile-landscape.jpg 800w, assets/images/bv2--mobile-landscape-hi-dpi.jpg 1600w" media="(min-width: 640px)">
+                  <img srcset="assets/images/bv2--mobile-portrait.jpg 300w, assets/images/bv2--mobile-portrait-hi-dpi.jpg 1130w" alt="menu item" class="flex-img">
+                </picture>
+                <div class="menu__item">
+                  <h4 class="menu--item-large-text">Menu Item</h4>
+                  <span class="menu--item-small-text">&#36;40</span>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-sm-6 col-md-3 ">
+                <picture>
+                  <source srcset="assets/images/bv3--desktop.jpg 433w, assets/images/bv3--desktop-hi-dpi.jpg 866w" media="(min-width: 1380px)">
+                  <source srcset="assets/images/bv3--tablet-landscape.jpg 400w, assets/images/bv3--tablet-landscape-hi-dpi.jpg 800w " media="(min-width: 1024px)">
+                  <source srcset="assets/images/bv3--tablet-portrait.jpg 400w, assets/images/bv3--tablet-portrait.jpg 800w " media="(min-width: 768px)">
+                  <source srcset="assets/images/bv3--mobile-landscape.jpg 800w, assets/images/bv3--mobile-landscape-hi-dpi.jpg 1600w" media="(min-width: 640px)">
+                  <img srcset="assets/images/bv3--mobile-portrait.jpg 300w, assets/images/bv3--mobile-portrait-hi-dpi.jpg 1130w" alt="menu item" class="flex-img">
+                </picture>
+                <div class="menu__item">
+                  <h4 class="menu--item-large-text">Menu Item</h4>
+                  <span class="menu--item-small-text">&#36;40</span>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-sm-6 col-md-3 ">
+                <picture>
+                  <source srcset="assets/images/bv4--desktop.jpg 433w, assets/images/bv4--desktop-hi-dpi.jpg 866w" media="(min-width: 1380px)">
+                  <source srcset="assets/images/bv4--tablet-landscape.jpg 400w, assets/images/bv4--tablet-landscape-hi-dpi.jpg 800w " media="(min-width: 1024px)">
+                  <source srcset="assets/images/bv4--tablet-portrait.jpg 400w, assets/images/bv4--tablet-portrait.jpg 800w " media="(min-width: 768px)">
+                  <source srcset="assets/images/bv4--mobile-landscape.jpg 800w, assets/images/bv4--mobile-landscape-hi-dpi.jpg 1600w" media="(min-width: 640px)">
+                  <img srcset="assets/images/bv4--mobile-portrait.jpg 300w, assets/images/bv4--mobile-portrait-hi-dpi.jpg 1130w" alt="menu item" class="flex-img">
+                </picture>
+                <div class="menu__item">
+                  <h4 class="menu--item-large-text">Menu Item</h4>
+                  <span class="menu--item-small-text">&#36;40</span>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-sm-6 col-md-3 ">
+                <picture>
+                  <source srcset="assets/images/bv5--desktop.jpg 433w, assets/images/bv5--desktop-hi-dpi.jpg 866w" media="(min-width: 1380px)">
+                  <source srcset="assets/images/bv5--tablet-landscape.jpg 400w, assets/images/bv5--tablet-landscape-hi-dpi.jpg 800w " media="(min-width: 1024px)">
+                  <source srcset="assets/images/bv5--tablet-portrait.jpg 400w, assets/images/bv5--tablet-portrait.jpg 800w " media="(min-width: 768px)">
+                  <source srcset="assets/images/bv5--mobile-landscape.jpg 800w, assets/images/bv5--mobile-landscape-hi-dpi.jpg 1600w" media="(min-width: 640px)">
+                  <img srcset="assets/images/bv5--mobile-portrait.jpg 300w, assets/images/bv5--mobile-portrait-hi-dpi.jpg 1130w" alt="menu item" class="flex-img">
+                </picture>
+                <div class="menu__item">
+                  <h4 class="menu--item-large-text">Menu Item</h4>
+                  <span class="menu--item-small-text">&#36;40</span>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-sm-6 col-md-3 ">
+                <picture>
+                  <source srcset="assets/images/bv6--desktop.jpg 433w, assets/images/bv6--desktop-hi-dpi.jpg 866w" media="(min-width: 1380px)">
+                  <source srcset="assets/images/bv6--tablet-landscape.jpg 400w, assets/images/bv6--tablet-landscape-hi-dpi.jpg 800w " media="(min-width: 1024px)">
+                  <source srcset="assets/images/bv6--tablet-portrait.jpg 400w, assets/images/bv6--tablet-portrait.jpg 800w " media="(min-width: 768px)">
+                  <source srcset="assets/images/bv6--mobile-landscape.jpg 800w, assets/images/bv6--mobile-landscape-hi-dpi.jpg 1600w" media="(min-width: 640px)">
+                  <img srcset="assets/images/bv6--mobile-portrait.jpg 300w, assets/images/bv6--mobile-portrait-hi-dpi.jpg 1130w" alt="menu item" class="flex-img">
+                </picture>
+                <div class="menu__item">
+                  <h4 class="menu--item-large-text">Menu Item</h4>
+                  <span class="menu--item-small-text">&#36;40</span>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-sm-6 col-md-3 ">
+                <picture>
+                  <source srcset="assets/images/bv7--desktop.jpg 433w, assets/images/bv7--desktop-hi-dpi.jpg 866w" media="(min-width: 1380px)">
+                  <source srcset="assets/images/bv7--tablet-landscape.jpg 400w, assets/images/bv7--tablet-landscape-hi-dpi.jpg 800w " media="(min-width: 1024px)">
+                  <source srcset="assets/images/bv7--tablet-portrait.jpg 400w, assets/images/bv7--tablet-portrait.jpg 800w " media="(min-width: 768px)">
+                  <source srcset="assets/images/bv7--mobile-landscape.jpg 800w, assets/images/bv7--mobile-landscape-hi-dpi.jpg 1600w" media="(min-width: 640px)">
+                  <img srcset="assets/images/bv7--mobile-portrait.jpg 300w, assets/images/bv7--mobile-portrait-hi-dpi.jpg 1130w" alt="menu item" class="flex-img">
+                </picture>
+                <div class="menu__item">
+                  <h4 class="menu--item-large-text">Menu Item</h4>
+                  <span class="menu--item-small-text">&#36;40</span>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-sm-6 col-md-3 ">
+                <picture>
+                  <source srcset="assets/images/bv8--desktop.jpg 433w, assets/images/bv8--desktop-hi-dpi.jpg 866w" media="(min-width: 1380px)">
+                  <source srcset="assets/images/bv8--tablet-landscape.jpg 400w, assets/images/bv8--tablet-landscape-hi-dpi.jpg 800w " media="(min-width: 1024px)">
+                  <source srcset="assets/images/bv8--tablet-portrait.jpg 400w, assets/images/bv8--tablet-portrait.jpg 800w " media="(min-width: 768px)">
+                  <source srcset="assets/images/bv8--mobile-landscape.jpg 800w, assets/images/bv8--mobile-landscape-hi-dpi.jpg 1600w" media="(min-width: 640px)">
+                  <img srcset="assets/images/bv8--mobile-portrait.jpg 300w, assets/images/bv8--mobile-portrait-hi-dpi.jpg 1130w" alt="menu item" class="flex-img">
+                </picture>
+                <div class="menu__item">
+                  <h4 class="menu--item-large-text">Menu Item</h4>
+                  <span class="menu--item-small-text">&#36;40</span>
+                </div>
+              </div>
+
+            </div>
+
+          </div> -->
+
         </div>
 
       </div>
-
-      <ul class="tab-menu">
-        <li><a href="#tab1">Breakfast</a></li>
-        <li><a href="#tab2">Lunch</a></li>
-        <li><a href="#tab3">Dinner</a></li>
-        <li><a href="#tab4">Beverages</a></li>
-      </ul>
-
-      <div class="tab-container">
-
-        <!-- TAB 1 -->
-        <div class="grid">
-
-          <div class="col-xs-12 col-sm-6 col-md-3 ">
-            <img src="http://via.placeholder.com/1400x1000" alt="">
-            <div class="menu-item">
-              <h4 class="menu-item--large-text">Menu Item</h4>
-              <span class="menu-item--small-text">&#36;40</span>
-            </div>
-          </div>
-
-          <div class="col-xs-12 col-sm-6 col-md-3 ">
-            <img src="http://via.placeholder.com/1400x1000" alt="">
-            <div class="menu-item">
-              <h4 class="menu-item--large-text">Menu Item</h4>
-              <span class="menu-item--small-text">&#36;40</span>
-            </div>
-          </div>
-
-          <div class="col-xs-12 col-sm-6 col-md-3 ">
-            <img src="http://via.placeholder.com/1400x1000" alt="">
-            <div class="menu-item">
-              <h4 class="menu-item--large-text">Menu Item</h4>
-              <span class="menu-item--small-text">&#36;40</span>
-            </div>
-          </div>
-
-          <div class="col-xs-12 col-sm-6 col-md-3 ">
-            <img src="http://via.placeholder.com/1400x1000" alt="">
-            <div class="menu-item">
-              <h4 class="menu-item--large-text">Menu Item</h4>
-              <span class="menu-item--small-text">&#36;40</span>
-            </div>
-          </div>
-
-          <div class="col-xs-12 col-sm-6 col-md-3 ">
-            <img src="http://via.placeholder.com/1400x1000" alt="">
-            <div class="menu-item">
-              <h4 class="menu-item--large-text">Menu Item</h4>
-              <span class="menu-item--small-text">&#36;40</span>
-            </div>
-          </div>
-
-          <div class="col-xs-12 col-sm-6 col-md-3 ">
-            <img src="http://via.placeholder.com/1400x1000" alt="">
-            <div class="menu-item">
-              <h4 class="menu-item--large-text">Menu Item</h4>
-              <span class="menu-item--small-text">&#36;40</span>
-            </div>
-          </div>
-
-          <div class="col-xs-12 col-sm-6 col-md-3 ">
-            <img src="http://via.placeholder.com/1400x1000" alt="">
-            <div class="menu-item">
-              <h4 class="menu-item--large-text">Menu Item</h4>
-              <span class="menu-item--small-text">&#36;40</span>
-            </div>
-          </div>
-
-          <div class="col-xs-12 col-sm-6 col-md-3 ">
-            <img src="http://via.placeholder.com/1400x1000" alt="">
-            <div class="menu-item">
-              <h4 class="menu-item--large-text">Menu Item</h4>
-              <span class="menu-item--small-text">&#36;40</span>
-            </div>
-          </div>
-
-        </div>
-
-        <!-- TAB 2 -->
-        <!-- TAB 3 -->
-        <!-- TAB 4 -->
-      </div>
-
 
     </div>
 
@@ -214,14 +621,9 @@
 
     <div class="container">
 
-      <div class="grid">
+      <h4 class="section-heading section-heading--small">Reviews</h4>
+      <h1 class="section-heading section-heading--large">What the food critics say about us</h1>
 
-        <div class="col-xs-12">
-          <h4 class="section-heading section-heading--small">Review</h4>
-          <h1 class="section-heading section-heading--large">What the food critics say about us</h1>
-        </div>
-
-      </div>
 
       <div class="carousel-1">
 
@@ -290,12 +692,8 @@
 
     <div class="container">
 
-      <div class="grid">
-        <div class="col-xs-12">
-          <h4 class="section-heading section-heading--small">Reservation</h4>
-          <h1 class="section-heading section-heading--large">Book a table online</h1>
-        </div>
-      </div>
+      <h4 class="section-heading section-heading--small">Reservation</h4>
+      <h1 class="section-heading section-heading--large">Book a table online</h1>
 
       <div class="reservation">
 

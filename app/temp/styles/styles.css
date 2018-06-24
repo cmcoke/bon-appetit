@@ -1904,3 +1904,83 @@ a{
 
   }
   }
+.menu{
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+
+}
+.menu__item{
+    background-color: black;
+    padding: 0.8125rem;
+  }
+.menu--item-large-text{
+    margin: 0.4375rem 0 0.625rem 0;
+    color: #fff;
+  }
+.menu--item-small-text{
+    color: #f2c425;
+  }
+.tab{
+  margin-top:3.125rem;
+
+
+}
+.tab__menu{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+@media(min-width:768px) and (max-width: 991px){
+.tab__menu{
+      display: -ms-flex;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex
+  }
+  }
+@media(min-width:992px) and (max-width: 1280px){
+.tab__menu{
+      display: -ms-flex;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex
+  }
+  }
+@media(min-width:1281px){
+.tab__menu{
+      display: -ms-flex;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex
+  }
+  }
+.tab__menu li{
+    margin-bottom: 1.25rem;
+  }
+@media(min-width:768px) and (max-width: 991px){
+.tab__menu li{
+      margin-right: 0.6875rem
+  }
+  }
+@media(min-width:992px) and (max-width: 1280px){
+.tab__menu li{
+      margin-right: 0.6875rem
+  }
+  }
+@media(min-width:1281px){
+.tab__menu li{
+      margin-right: 0.6875rem
+  }
+  }
+.tab__menu a{
+    color: #f2c425;
+    background: black;
+    padding:1rem;
+    display: block;
+    -webkit-transition: 250ms ease;
+    transition: 250ms ease;
+  }
+.tab__menu a:hover{
+    color: black;
+    background: #f2c425;
+  }

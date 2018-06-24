@@ -1,0 +1,58 @@
+.tab{
+  margin-top:3.125rem;
+
+  &__menu{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+    @mixin atMedium{
+      display: -webkit-flex;
+      display: -ms-flex;
+      display: flex;
+    }
+
+    @mixin atLarge{
+      display: -webkit-flex;
+      display: -ms-flex;
+      display: flex;
+    }
+
+    @mixin atExLarge{
+      display: -webkit-flex;
+      display: -ms-flex;
+      display: flex;
+    }
+  }
+
+  &__menu li{
+    margin-bottom: 1.25rem;
+
+    @mixin atMedium{
+      margin-right: 0.6875rem;
+    }
+
+    @mixin atLarge{
+      margin-right: 0.6875rem;
+    }
+
+    @mixin atExLarge{
+      margin-right: 0.6875rem;
+    }
+  }
+
+  &__menu a{
+    color: $yellow;
+    background: black;
+    padding:1rem;
+    display: block;
+    transition: 250ms ease;
+  }
+
+  &__menu a:hover{
+    color: black;
+    background: $yellow;
+  }
+
+
+}
