@@ -1,4 +1,6 @@
 .generic-content{
+  font-family: $quicksand;
+  line-height: 1.75;
 
   p{
     font-family: $quicksand;
@@ -10,6 +12,10 @@
       font-size: 1.3125rem;
     }
 
+  }
+
+  &--critic{
+    text-align: center;
   }
 
 }

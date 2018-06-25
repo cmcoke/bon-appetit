@@ -1,0 +1,33 @@
+.carousel{
+
+
+  &-cell-custom-size{
+    width: 100%;
+    padding: 7px;
+
+    @mixin atSmall{
+      width: 100%;
+      padding: 14px;
+    }
+
+    @mixin atMedium{
+      width: 50%;
+      padding: 12px;
+    }
+
+    @mixin atLarge{
+      width: 50%;
+      padding: 12px;
+    }
+
+    @mixin atExLarge{
+      width: 33.33%;
+      padding: 20px;
+    }
+
+
+  }
+
+
+
+}

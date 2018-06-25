@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Oswald|Quicksand|Raleway');
 @import "normalize.css";
 @import "reflex-grid";
+@import "flickity";
 @import "base/_variables";
 @import "base/_mixins";
 @import "base/_global";
@@ -8,5 +9,7 @@
 @import "modules/_page-section";
 @import "modules/_generic-content";
 @import "modules/_section-heading";
-@import "modules/_menu";
 @import "modules/_tab";
+@import "modules/_menu";
+@import "modules/_critic";
+@import "modules/_carousel";
