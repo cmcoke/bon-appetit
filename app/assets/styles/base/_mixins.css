@@ -12,6 +12,12 @@
   }
 }
 
+@define-mixin atMedium2{
+  @media(min-width:812px) and (max-width: 823px){
+    @mixin-content;
+  }
+}
+
 /* Large devices (desktops, 992px and up) */
 @define-mixin atLarge{
   @media(min-width:992px) and (max-width: 1280px){
@@ -22,6 +28,12 @@
 /* Extra large devices (large desktops, 1200px and up) */
 @define-mixin atExLarge{
   @media(min-width:1281px){
+    @mixin-content;
+  }
+}
+
+@define-mixin atExLarge2{
+  @media(width:1366px){
     @mixin-content;
   }
 }

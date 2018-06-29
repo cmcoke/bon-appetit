@@ -13,3 +13,7 @@
 @import "modules/_menu";
 @import "modules/_critic";
 @import "modules/_carousel";
+@import "modules/_reservation";
+@import "modules/_form";
+@import "modules/_opening-hours";
+@import "modules/_btn";

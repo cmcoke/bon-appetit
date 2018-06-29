@@ -1,0 +1,205 @@
+.form{
+
+  & ul{
+    margin: 0;
+    padding: 0;
+  }
+
+  &__heading{
+    font-family: $oswald;
+    font-weight: 100;
+    margin-bottom: 0.4375rem;
+    text-transform: uppercase;
+
+    @mixin atLarge{
+      color:#fff;
+    }
+
+    @mixin atExLarge{
+      color:#fff;
+    }
+  }
+
+  &__input{
+
+    @mixin atLarge{
+      display: -webkit-flex;
+      display: -ms-flex;
+      display: flex;
+    }
+
+    @mixin atExLarge{
+      display: -webkit-flex;
+      display: -ms-flex;
+      display: flex;
+    }
+  }
+
+  &__input input{
+    width: 100%;
+    padding: 0.3125rem;
+    border: 1px solid black;
+
+    @mixin atLarge{
+      border: 1px solid #fff;
+    }
+
+    @mixin atExLarge{
+      border: 1px solid #fff;
+      width: 150%;
+    }
+  }
+
+  &__input li{
+
+    @mixin atLarge{
+      margin-right: 1.375rem;
+    }
+
+    @mixin atExLarge{
+      margin-right: 9.375rem;
+    }
+  }
+
+  &__input--email{
+
+    @mixin atExLarge2{
+      margin-left: -0.875rem;
+    }
+  }
+
+  &__dropdown{
+
+    @mixin atLarge{
+      display: -webkit-flex;
+      display: -ms-flex;
+      display: flex;
+    }
+
+    @mixin atExLarge{
+      display: -webkit-flex;
+      display: -ms-flex;
+      display: flex;
+    }
+  }
+
+  &__dropdown select{
+    border: 1px solid black;
+    padding: 0.3125rem;
+    margin-right: 0.125rem;
+    background-color: #fff;
+    color: black;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    -o-appearance:none;
+    -ms-appearance:none;
+    appearance:none;
+
+    @mixin atMedium{
+
+    }
+
+    @mixin atLarge{
+      border: 1px solid #fff;
+    }
+
+    @mixin atExLarge{
+      border: 1px solid #fff;
+    }
+  }
+
+  &__dropdown li{
+
+    @mixin atLarge{
+      margin-right: 7.625rem;
+    }
+
+    @mixin atExLarge{
+      margin-right: 15.9375rem;
+    }
+
+    @mixin atExLarge2{
+      margin-right: 15.8125rem;
+    }
+  }
+
+  &__dropdown li:nth-child(2){
+
+    @mixin atLarge{
+      margin-left: 1.4375rem;
+    }
+
+    @mixin atExLarge{
+      margin-left: 1.375rem;
+    }
+
+    @mixin atExLarge2{
+      margin-left: 0.75rem;
+    }
+  }
+
+  &__dropdown--time{
+    width: 100%;
+    background: url(/assets/images/clock-24x24.png) no-repeat 99% center;
+
+    @mixin atLarge{
+      width: 246%;
+    }
+
+    @mixin atExLarge{
+      width: 373%;
+    }
+
+    @mixin atExLarge2{
+      width: 445%;
+    }
+  }
+
+
+  &__dropdown--date{
+    width: 100%;
+    background: url(/assets/images/calender-24x24.png) no-repeat 99% center;
+
+    @mixin atLarge{
+      width: 171%;
+    }
+
+    @mixin atExLarge{
+      width: 254%;
+    }
+
+    @mixin atExLarge2{
+      width: 309%;
+    }
+  }
+
+  &__dropdown--table select{
+    width: 100%;
+    padding: 0.3125rem;
+    background-color: #fff;
+    color: black;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    -o-appearance:none;
+    -ms-appearance:none;
+    appearance:none;
+    background: url(/assets/images/chevron-24x24.png) no-repeat 99% center;
+
+    @mixin atLarge{
+      width: 78%;
+      background-color: #fff;
+    }
+
+    @mixin atExLarge{
+      width: 90%;
+      background-color: #fff;
+    }
+
+    @mixin atExLarge2{
+      width: 92%;
+      background-color: #fff;
+    }
+  }
+
+
+}

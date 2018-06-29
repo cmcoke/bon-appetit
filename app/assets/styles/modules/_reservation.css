@@ -1,0 +1,39 @@
+.reservation{
+
+    @mixin atLarge{
+      position: relative;
+    }
+
+    &__form{
+      border: 8px solid  #555;
+      padding: 0 12px 0 12px;
+
+      @mixin atMedium{
+        margin-top: -2px;
+        padding: 0 12px 0 12px;
+        height: 64%;
+      }
+
+      @mixin atMedium2{
+        height: 160%;
+      }
+
+      @mixin atLarge{
+        position: absolute;
+        bottom: 106%;
+        left: 10%;
+        border: none;
+        padding: 0 12px 0 12px;
+      }
+
+      @mixin atExLarge{
+        position: absolute;
+        bottom: 115%;
+        left: 10%;
+        border: none;
+        padding: 0 12px 0 12px;
+      }
+
+    }
+
+}

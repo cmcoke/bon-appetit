@@ -715,70 +715,97 @@
 
       <div class="reservation">
 
-        <img src="http://via.placeholder.com/3000x1000" alt="">
+        <picture class="hidden-xxs hidden-xs hidden-sm">
+          <source srcset="assets/images/book-table--desktop.jpg 3000w, assets/images/book-table--desktop-hi-dpi.jpg 6000w" media="(min-width: 1380px)">
+          <img srcset="assets/images/book-table--tablet-landscape.jpg 3000w, assets/images/book-table--tablet-landscape-hi-dpi.jpg 6000w " media="(min-width: 1024px)">
+        </picture>
 
-        <div class="reservation__form">
 
-          <div class="grid">
-            <div class="col-xs-12 col-md-2">
-              <h4 class="forum__heading">Name</h4>
-              <input type="text" class="forum__input">
+        <div class="grid">
+
+          <div class="col-xs-12 col-sm-6 col-md-4 order-2-md">
+
+            <div class="opening-hours">
+              <div class="opening-hours__border">
+                <h3 class="opening-hours__heading">Opening Hours</h3>
+
+                <div class="opening-hours__content">
+                  <h3 class="opening-hours__day">Monday - Friday</h3>
+                  <p class="opening-hours__time">7AM - 11AM (Breakfast)</p>
+                  <p class="opening-hours__time">11AM - 10PM (Lunch/Dinner)</p>
+                </div>
+
+                <div class="opening-hours__content">
+                  <h3 class="opening-hours__day">Satuday - Sunday</h3>
+                  <p class="opening-hours__time">8AM - 1PM (Brunch)</p>
+                  <p class="opening-hours__time">1PM - 9PM (Lunch/Dinner)</p>
+                </div>
+              </div>
             </div>
-            <div class="col-xs-12 col-md-2">
-              <h4 class="forum__heading">Email</h4>
-              <input type="email" class="forum__input">
-            </div>
+
           </div>
 
-          <div class="grid">
+          <div class="col-xs-12 col-sm-6 col-md-8">
 
-            <div class="col-xs-12 col-md-2">
-              <h4 class="forum__heading">Date</h4>
-              <select class="forum__input">
-                <option value="June 14th, 2018">June 14th, 2018</option>
-                <option value="June 15th, 2018">June 15th, 2018</option>
-                <option value="June 16th, 2018">June 16th, 2018</option>
-              </select>
+            <div class="reservation__form">
+
+              <p class="generic-content generic-content--reservation">Want to reverse a table at Bon Appétit? Please use the form below to book a table online.</p>
+
+              <form action="#" class="form">
+
+                <ul class="form__input">
+                  <li>
+                    <h4 class="form__heading">Name</h4>
+                    <input type="text">
+                  </li>
+
+                  <li class="form__input--email">
+                    <h4 class="form__heading">Email</h4>
+                    <input type="email">
+                  </li>
+                </ul>
+
+                <ul class="form__dropdown">
+                  <li>
+                    <h4 class="form__heading">Time</h4>
+                    <select name="#" class="form__dropdown--time">
+                      <option value="#">9:00 AM</option>
+                      <option value="#">12:00 PM</option>
+                      <option value="#">4:30 PM</option>
+                    </select>
+                  </li>
+
+                  <li>
+                    <h4 class="form__heading">Date</h4>
+                    <select name="#" class="form__dropdown--date">
+                      <option value="#">Jun 14th, 2018</option>
+                      <option value="#">Jun 15th, 2018</option>
+                      <option value="#">Jun 16th, 2018</option>
+                    </select>
+                  </li>
+                </ul>
+
+                <ul class="form__dropdown--table">
+                  <h4 class="form__heading">I want to book a table for</h4>
+                  <select name="#" class="">
+                    <option value="#">2</option>
+                    <option value="#">4</option>
+                    <option value="#">6</option>
+                  </select>
+                </ul>
+
+                <ul>
+                  <li>
+                    <input type="submit" value="Book Now" class="btn btn--reservation">
+                  </li>
+                </ul>
+
+              </form>
+
             </div>
 
-
-            <div class="col-xs-12 col-md-2">
-              <h4 class="forum__heading">Time</h4>
-              <select class="forum__input">
-                <option value="9:00 AM">9:00 AM</option>
-                <option value="12:00 PM">12:00 PM</option>
-                <option value="4:30 PM">4:30 PM</option>
-              </select>
-            </div>
-
-            <div class="col-xs-12">
-              <h4 class="forum__heading">I want to book a table for</h4>
-              <select class="forum__input">
-                <option value="2">2</option>
-                <option value="4">4</option>
-                <option value="6">6</option>
-              </select>
-            </div>
           </div>
 
-          <a href="#" class="btn">Book Now</a>
-
-        </div>
-
-        <div class="opening-hours">
-          <h3 class="opening-hours__heading">Opening Hours</h3>
-
-          <div class="opening-hours__content">
-            <h3 class="opening-hours__day">Monday - Friday</h3>
-            <p class="opening-hours__time">7AM - 11AM (Breakfast)</p>
-            <p class="opening-hours__time">11AM - 10PM (Lunch/Dinner)</p>
-          </div>
-
-          <div class="opening-hours__content">
-            <h3 class="opening-hours__day">Satuday - Sunday</h3>
-            <p class="opening-hours__time">8AM - 1PM (Brunch)</p>
-            <p class="opening-hours__time">1PM - 9PM (Lunch/Dinner)</p>
-          </div>
         </div>
 
       </div>
@@ -804,8 +831,8 @@
         </div>
 
         <div class="col-xs-12 col-md-6">
-          <h4 class="forum__heading">Newsletter</h4>
-          <input type="email" placeholder="Enter Your Email" class="forum__input">
+          <h4 class="form__heading">Newsletter</h4>
+          <input type="email" placeholder="Enter Your Email" class="form">
           <a href="#" class="btn btn--footer">Subscribe</a>
         </div>
 
