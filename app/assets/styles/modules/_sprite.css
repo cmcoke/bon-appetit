@@ -1,0 +1,27 @@
+/* Do not edit modules/_sprite directly as it is generated automatically by Gulp.
+Instead edit gulp/templates/sprite */
+
+    .icon {
+      background-image: url('../../assets/images/sprites/sprite-cbf0044e.svg');
+    }
+    .no-svg .icon{
+        background-image: url('../../assets/images/sprites/sprite-cbf0044e.png');
+    }
+
+  .icon--facebook {
+    width: 32px;
+    height: 32px;
+    background-position: 0 0;
+  }
+
+  .icon--instagram {
+    width: 32px;
+    height: 32px;
+    background-position: 100% 0;
+  }
+
+  .icon--twitter {
+    width: 32px;
+    height: 32px;
+    background-position: 0 100%;
+  }

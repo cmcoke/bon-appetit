@@ -1,0 +1,9 @@
+.logo{
+  font-family: $oswald;
+  text-transform: uppercase;
+
+  &--footer{
+    font-size: 30px;
+    color: $yellow;
+  }
+}

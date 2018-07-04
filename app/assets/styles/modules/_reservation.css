@@ -7,20 +7,18 @@
     &__form{
       border: 8px solid  #555;
       padding: 0 12px 0 12px;
+      height: 104%;
 
       @mixin atMedium{
         margin-top: -2px;
         padding: 0 12px 0 12px;
-        height: 64%;
-      }
-
-      @mixin atMedium2{
-        height: 160%;
+        height: 107%;
       }
 
       @mixin atLarge{
         position: absolute;
         bottom: 106%;
+        height: 140%;
         left: 10%;
         border: none;
         padding: 0 12px 0 12px;
@@ -29,6 +27,16 @@
       @mixin atExLarge{
         position: absolute;
         bottom: 115%;
+        height: 140%;
+        left: 10%;
+        border: none;
+        padding: 0 12px 0 12px;
+      }
+
+      @mixin atExLarge2{
+        position: absolute;
+        bottom: 115%;
+        height: 160%;
         left: 10%;
         border: none;
         padding: 0 12px 0 12px;

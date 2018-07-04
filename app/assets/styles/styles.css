@@ -6,6 +6,7 @@
 @import "base/_mixins";
 @import "base/_global";
 @import "modules/_hero";
+@import "modules/_logo";
 @import "modules/_page-section";
 @import "modules/_generic-content";
 @import "modules/_section-heading";
@@ -17,3 +18,6 @@
 @import "modules/_form";
 @import "modules/_opening-hours";
 @import "modules/_btn";
+@import "modules/_sprite";
+@import "modules/_site-footer";
+@import "modules/_social-icons";

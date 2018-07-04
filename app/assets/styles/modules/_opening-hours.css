@@ -5,13 +5,7 @@
   box-shadow: 1px 17px 74px -7px rgba(57,57,57,1);
 
   @mixin atMedium{
-    height: 64%;
-
-  }
-
-  @mixin atMedium2{
-    height: 160%;
-
+    height: 107%;
   }
 
   @mixin atLarge{

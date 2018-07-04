@@ -20,8 +20,26 @@
     }
   }
 
-  &__input{
+  &__heading--footer{
 
+    @mixin atMedium{
+      margin-right: 165px;
+    }
+
+    @mixin atLarge{
+      margin-right: 190px;
+    }
+
+    @mixin atExLarge{
+      margin-right: 454px;
+    }
+
+    @mixin atExLarge2{
+      margin-right: 500px;
+    }
+  }
+
+  &__input{
     @mixin atLarge{
       display: -webkit-flex;
       display: -ms-flex;
@@ -36,17 +54,25 @@
   }
 
   &__input input{
+    font-family: $oswald;
+    color: #555;
     width: 100%;
     padding: 0.3125rem;
     border: 1px solid black;
 
     @mixin atLarge{
       border: 1px solid #fff;
+      width: 150%;
     }
 
     @mixin atExLarge{
       border: 1px solid #fff;
-      width: 150%;
+      width: 178%;
+    }
+
+    @mixin atExLarge2{
+      border: 1px solid #fff;
+      width: 196%;
     }
   }
 
@@ -62,9 +88,13 @@
   }
 
   &__input--email{
+    @mixin atLarge{
+      margin-left: 80px;
+    }
+
 
     @mixin atExLarge2{
-      margin-left: -0.875rem;
+      margin-left: 30px;
     }
   }
 
@@ -95,9 +125,6 @@
     -ms-appearance:none;
     appearance:none;
 
-    @mixin atMedium{
-
-    }
 
     @mixin atLarge{
       border: 1px solid #fff;
@@ -126,11 +153,11 @@
   &__dropdown li:nth-child(2){
 
     @mixin atLarge{
-      margin-left: 1.4375rem;
+      margin-left: 58px;
     }
 
     @mixin atExLarge{
-      margin-left: 1.375rem;
+      margin-left: -28px;
     }
 
     @mixin atExLarge2{
@@ -139,15 +166,16 @@
   }
 
   &__dropdown--time{
+    font-family: $oswald;
     width: 100%;
     background: url(/assets/images/clock-24x24.png) no-repeat 99% center;
 
     @mixin atLarge{
-      width: 246%;
+      width: 319%;
     }
 
     @mixin atExLarge{
-      width: 373%;
+      width: 377%;
     }
 
     @mixin atExLarge2{
@@ -157,15 +185,16 @@
 
 
   &__dropdown--date{
+    font-family: $oswald;
     width: 100%;
     background: url(/assets/images/calender-24x24.png) no-repeat 99% center;
 
     @mixin atLarge{
-      width: 171%;
+      width: 221%;
     }
 
     @mixin atExLarge{
-      width: 254%;
+      width: 265%;
     }
 
     @mixin atExLarge2{
@@ -174,6 +203,7 @@
   }
 
   &__dropdown--table select{
+    font-family: $oswald;
     width: 100%;
     padding: 0.3125rem;
     background-color: #fff;
@@ -186,18 +216,42 @@
     background: url(/assets/images/chevron-24x24.png) no-repeat 99% center;
 
     @mixin atLarge{
-      width: 78%;
+      width: 85%;
       background-color: #fff;
     }
 
     @mixin atExLarge{
-      width: 90%;
+      width: 76%;
       background-color: #fff;
     }
 
     @mixin atExLarge2{
       width: 92%;
       background-color: #fff;
+    }
+  }
+
+  &--footer{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid black;
+    font-family: $oswald;
+
+    @mixin atMedium{
+      width: 50%;
+    }
+
+    @mixin atLarge{
+      width: 90%;
+    }
+
+    @mixin atExLarge{
+      width: 60%;
+    }
+
+    @mixin atExLarge2{
+      width: 100%;
+      margin-right: 50px;
     }
   }
 

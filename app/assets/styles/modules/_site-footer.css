@@ -1,0 +1,143 @@
+.site-footer{
+  background-color:#121212;
+  color: #fff;
+
+  &__heading{
+    font-weight: 100;
+
+    @mixin atMedium{
+      font-size: 22px;
+      margin-bottom: 12px;
+    }
+
+    @mixin atExLarge{
+      font-size: 20px;
+    }
+  }
+
+  &__heading--newsletter{
+    text-align: center;
+
+
+    @mixin atLarge{
+      margin-right: 212px;
+      margin-bottom: -3px;
+    }
+
+    @mixin atExLarge{
+      margin-right: 195px;
+    }
+  }
+
+  &__contact-info{
+    text-align: center;
+  }
+
+
+  &__text{
+    font-family: $oswald;
+    font-weight: 100;
+    text-transform: uppercase;
+    font-size: 15px;
+
+    @mixin atMedium{
+      font-size: 17px;
+    }
+
+    @mixin atExLarge{
+      text-align: left;
+      margin-left: 175px;
+    }
+
+    @mixin atExLarge2{
+      text-align: left;
+      margin-left: 110px;
+    }
+
+  }
+
+
+  &__social-media{
+    text-align: center;
+    font-family: $oswald;
+    font-weight: 100;
+    text-transform: uppercase;
+
+    @mixin atLarge{
+      margin-top: 45px;
+      margin-right: 37px;
+    }
+
+    @mixin atExLarge{
+      text-align: center;
+      /* margin-left: 75px; */
+    }
+
+    @mixin atExLarge2{
+      text-align: center;
+    }
+  }
+
+
+  &__newsletter{
+    text-align: center;
+    font-family: $oswald;
+    font-weight: 100;
+    text-transform: uppercase;
+
+    @mixin atLarge{
+      margin-top: 45px;
+      text-align: left;
+    }
+
+    @mixin atExLarge{
+      margin-top: 45px;
+      text-align: center;
+    }
+
+    @mixin atExLarge2{
+      margin-top: 45px;
+      margin-left: 60px;
+    }
+  }
+
+  &__text--newsletter{
+    font-size: 15px;
+
+    @mixin atMedium{
+      font-size: 17px;
+    }
+
+    @mixin atLarge{
+      font-size: 16px;
+    }
+
+    @mixin atExLarge{
+      margin-top: -15px;
+    }
+  }
+
+  &__creator{
+    font-family: $oswald;
+    text-transform: uppercase;
+    font-size: 11px;
+    padding: 10px;
+    margin-top: 22px;
+    background-color: black;
+    /* text-align: center; */
+
+    & p {
+      text-align: center;
+    }
+  }
+
+  &__portfolio{
+    color: crimson;
+    transition: 250ms ease;
+  }
+
+  &__portfolio:hover{
+    color: #fff;
+  }
+
+}
