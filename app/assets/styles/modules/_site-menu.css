@@ -5,12 +5,6 @@
   transform: translateX(100%);
   transition: transform ease-in 250ms;
 
-  @mixin atMedium{
-    position: static;
-    transform: none;
-    padding-bottom: 11px;
-  }
-
   @mixin atLarge{
     position: static;
     transform: none;
@@ -32,15 +26,6 @@
     flex-direction: column;
     justify-content: space-around;
     height: 100vh;
-
-    @mixin atMedium{
-      background-color: inherit;
-      padding: 0;
-      margin-top: -50px;
-      flex-direction: row;
-      justify-content: flex-end;
-      height: auto;
-    }
 
     @mixin atLarge{
       background-color: inherit;
@@ -69,12 +54,6 @@
     display: -ms-flex;
     display: flex;
 
-    @mixin atMedium{
-      flex: none;
-      border-bottom:none;
-      justify-content: flex-end;
-      margin-left: 60px;
-    }
 
     @mixin atLarge{
       flex: none;
@@ -105,6 +84,10 @@
     justify-content: center;
     transition: 240ms ease;
 
+    &.is-current-link{
+      color:$yellow;
+    }
+
     @mixin atMedium{
       font-size: 1rem;
       flex-basis: none;
@@ -135,10 +118,6 @@
 
     }
 
-  }
-
-  a:hover{
-    color:$yellow;
   }
 
   &--is-open{

@@ -2896,15 +2896,6 @@ Instead edit gulp/templates/sprite */
   transition: transform ease-in 250ms, -webkit-transform ease-in 250ms;
 
 }
-@media(min-width:768px) and (max-width: 991px){
-.site-menu{
-    position: static;
-    -webkit-transform: none;
-            transform: none;
-    padding-bottom: 11px
-
-}
-  }
 @media(min-width:992px) and (max-width: 1280px){
 .site-menu{
     position: static;
@@ -2938,22 +2929,6 @@ Instead edit gulp/templates/sprite */
         justify-content: space-around;
     height: 100vh;
 
-  }
-@media(min-width:768px) and (max-width: 991px){
-.site-menu ul{
-      background-color: inherit;
-      padding: 0;
-      margin-top: -50px;
-      -webkit-box-orient: horizontal;
-      -webkit-box-direction: normal;
-          -ms-flex-direction: row;
-              flex-direction: row;
-      -webkit-box-pack: end;
-          -ms-flex-pack: end;
-              justify-content: flex-end;
-      height: auto
-
-  }
   }
 @media(min-width:992px) and (max-width: 1280px){
 .site-menu ul{
@@ -2997,19 +2972,6 @@ Instead edit gulp/templates/sprite */
     display: -ms-flexbox;
     display: flex;
 
-  }
-@media(min-width:768px) and (max-width: 991px){
-.site-menu li{
-      -webkit-box-flex: 0;
-          -ms-flex: none;
-              flex: none;
-      border-bottom:none;
-      -webkit-box-pack: end;
-          -ms-flex-pack: end;
-              justify-content: flex-end;
-      margin-left: 60px
-
-  }
   }
 @media(min-width:992px) and (max-width: 1280px){
 .site-menu li{
@@ -3058,6 +3020,9 @@ Instead edit gulp/templates/sprite */
     transition: 240ms ease;
 
   }
+.site-menu a.is-current-link{
+      color:#f2c425;
+    }
 @media(min-width:768px) and (max-width: 991px){
 .site-menu a{
       font-size: 1rem;
@@ -3094,9 +3059,6 @@ Instead edit gulp/templates/sprite */
         color:#f2c425;
       }
   }
-.site-menu a:hover{
-    color:#f2c425;
-  }
 .site-menu--is-open{
       -webkit-transform: translateX(0);
               transform: translateX(0);
@@ -3113,14 +3075,6 @@ Instead edit gulp/templates/sprite */
 
 
 }
-@media(min-width:768px) and (max-width: 991px){
-.mobile-menu-button{
-    display: none
-
-
-
-}
-  }
 @media(min-width:992px) and (max-width: 1280px){
 .mobile-menu-button{
     display: none
@@ -3145,11 +3099,6 @@ Instead edit gulp/templates/sprite */
     background: #f2c425;
     -webkit-transition: all ease-in-out 250ms;
     transition: all ease-in-out 250ms;
-  }
-@media(min-width:768px) and (max-width: 991px){
-.mobile-menu-button__hamburger, .mobile-menu-button__hamburger::before, .mobile-menu-button__hamburger::after{
-      display: none
-  }
   }
 @media(min-width:992px) and (max-width: 1280px){
 .mobile-menu-button__hamburger, .mobile-menu-button__hamburger::before, .mobile-menu-button__hamburger::after{

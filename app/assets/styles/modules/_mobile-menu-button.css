@@ -7,10 +7,6 @@
   z-index: 3;
   cursor: pointer;
 
-  @mixin atMedium{
-    display: none;
-  }
-
   @mixin atLarge{
     display: none;
   }
@@ -27,9 +23,6 @@
     background: $yellow;
     transition: all ease-in-out 250ms;
 
-    @mixin atMedium{
-      display: none;
-    }
 
     @mixin atLarge{
       display: none;
