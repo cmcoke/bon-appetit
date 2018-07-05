@@ -1,0 +1,16 @@
+.site-header {
+    position: fixed;
+    z-index: 1;
+    background-color: rgba($black3, .7);
+    width: 100%;
+
+    @mixin atMedium{
+      background-color: rgba($black3, .5);
+
+      &--dark{
+        background-color: rgba($black3, .9);
+      }
+    }
+
+
+}
