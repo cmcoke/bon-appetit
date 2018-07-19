@@ -1973,7 +1973,7 @@ a{
   color: #fff;
 }
 .logo--footer{
-    font-size: 30px;
+    font-size: 1.875rem;
     color: #f2c425;
   }
 .page-section{
@@ -2012,8 +2012,19 @@ a{
 
   }
   }
+.generic-content--owner{
+    margin-bottom: 0;
+    font-weight: bolder;
+    font-size: 17px;
+  }
+.generic-content--occupation{
+    margin-top: 0;
+    color: #555;
+    font-size: 0.875rem;
+  }
 .generic-content--critic{
     text-align: center;
+
   }
 @media(min-width:992px) and (max-width: 1280px){
 .generic-content--reservation{
@@ -2023,7 +2034,7 @@ a{
 @media(min-width:1281px){
 .generic-content--reservation{
       color: #fff;
-      font-size: 18px
+      font-size: 1.125rem
   }
   }
 .section-heading{
@@ -2113,6 +2124,12 @@ a{
       margin-right: 0.6875rem
   }
   }
+.tab__menu a.current{
+    color: black;
+    background: #f2c425;
+    padding: 1rem;
+    display: block;
+  }
 .tab__menu a{
     color: #f2c425;
     background: black;
@@ -2124,22 +2141,55 @@ a{
 .tab__menu a:hover{
     color: black;
     background: #f2c425;
+    padding: 1rem;
+    display: block;
   }
 .menu{
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
 
+
 }
 .menu__item{
     background-color: black;
-    padding: 0.8125rem;
+    padding-top:0.0625rem;
+    padding-left: 0.75rem;
   }
-.menu--item-large-text{
-    margin: 0.4375rem 0 0.625rem 0;
+.menu__item--name{
+    display: inline-block;
     color: #fff;
+    font-weight: 100;
+    font-size: 0.9375rem;
   }
-.menu--item-small-text{
+.menu__item--amount{
     color: #f2c425;
+    font-size: 0.875rem;
+    margin-left: 8.125rem;
+  }
+@media(min-width: 576px) and (max-width: 767px){
+.menu__item--amount{
+      margin-left: 21.5625rem
+  }
+  }
+@media(min-width:768px) and (max-width: 991px){
+.menu__item--amount{
+      margin-left: 10.625rem
+  }
+  }
+@media(min-width:992px) and (max-width: 1280px){
+.menu__item--amount{
+      margin-left: 2.8125rem
+  }
+  }
+@media(min-width:1281px){
+.menu__item--amount{
+      margin-left: 12.1875rem
+  }
+  }
+@media(width:1366px){
+.menu__item--amount{
+      margin-left: 5.9375rem
+  }
   }
 .critic{
   margin-top: 4.375rem;
@@ -2196,6 +2246,12 @@ a{
     border-bottom: #f2c425 solid 1px;
     width: 20%;
   }
+.carousel{
+  margin-top: -3.4375rem;
+
+
+
+}
 .carousel-cell-custom-size{
     width: 100%;
     padding: 7px;
@@ -2234,9 +2290,26 @@ a{
 
   }
   }
+.reservation{
+    margin-top: 30px;
+
+}
+@media(min-width:768px) and (max-width: 991px){
+.reservation{
+      margin-top: 45px
+
+}
+  }
 @media(min-width:992px) and (max-width: 1280px){
 .reservation{
+      margin-top: 50px;
       position: relative
+
+}
+  }
+@media(min-width:1281px){
+.reservation{
+      margin-top: 55px
 
 }
   }
@@ -2651,12 +2724,13 @@ a{
     background-color: #DC4A01;
   }
 .btn--reservation{
-    margin-top: 22px;
+    margin-top: 1.375rem;
+    cursor: pointer;
   }
 .btn--footer{
     display: block;
     padding: .75rem .2rem;
-    margin-top: 22px;
+    margin-top: 1.375rem;
     background-color: #f2c425;
   }
 .btn--footer:hover{
@@ -2665,7 +2739,7 @@ a{
 @media(min-width:768px) and (max-width: 991px){
 .btn--footer{
       text-align: center;
-      margin-left: 175px;
+      margin-left: 10.9375rem;
       width: 50%
   }
   }
@@ -2673,7 +2747,6 @@ a{
 .btn--footer{
       text-align: center;
       width: 50%
-      /* margin-left: 20px; */
   }
   }
 @media(min-width:1281px){
@@ -2686,7 +2759,7 @@ a{
 @media(width:1366px){
 .btn--footer{
       width: 100%;
-      margin-left:-2px
+      margin-left:-0.125rem
   }
   }
 /* Do not edit modules/_sprite directly as it is generated automatically by Gulp.
@@ -2722,13 +2795,13 @@ Instead edit gulp/templates/sprite */
   }
 @media(min-width:768px) and (max-width: 991px){
 .site-footer__heading{
-      font-size: 22px;
-      margin-bottom: 12px
+      font-size: 1.375rem;
+      margin-bottom: 0.75rem
   }
   }
 @media(min-width:1281px){
 .site-footer__heading{
-      font-size: 20px
+      font-size: 1.25rem
   }
   }
 .site-footer__heading--newsletter{
@@ -2736,13 +2809,13 @@ Instead edit gulp/templates/sprite */
   }
 @media(min-width:992px) and (max-width: 1280px){
 .site-footer__heading--newsletter{
-      margin-right: 212px;
-      margin-bottom: -3px
+      margin-right: 13.25rem;
+      margin-bottom: -0.1875rem
   }
   }
 @media(min-width:1281px){
 .site-footer__heading--newsletter{
-      margin-right: 195px
+      margin-right: 12.1875rem
   }
   }
 .site-footer__contact-info{
@@ -2752,26 +2825,26 @@ Instead edit gulp/templates/sprite */
     font-family: 'Oswald', sans-serif;
     font-weight: 100;
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 0.9375rem;
 
   }
 @media(min-width:768px) and (max-width: 991px){
 .site-footer__text{
-      font-size: 17px
+      font-size: 1.0625rem
 
   }
   }
 @media(min-width:1281px){
 .site-footer__text{
       text-align: left;
-      margin-left: 175px
+      margin-left: 10.9375rem
 
   }
   }
 @media(width:1366px){
 .site-footer__text{
       text-align: left;
-      margin-left: 110px
+      margin-left: 6.875rem
 
   }
   }
@@ -2783,14 +2856,14 @@ Instead edit gulp/templates/sprite */
   }
 @media(min-width:992px) and (max-width: 1280px){
 .site-footer__social-media{
-      margin-top: 45px;
-      margin-right: 37px
+      margin-top: -2.8125rem;
+      margin-right: 35px
   }
   }
 @media(min-width:1281px){
 .site-footer__social-media{
-      text-align: center
-      /* margin-left: 75px; */
+      text-align: center;
+      margin-top: -3.4375rem
   }
   }
 @media(width:1366px){
@@ -2806,46 +2879,46 @@ Instead edit gulp/templates/sprite */
   }
 @media(min-width:992px) and (max-width: 1280px){
 .site-footer__newsletter{
-      margin-top: 45px;
+      margin-top: 2.8125rem;
       text-align: left
   }
   }
 @media(min-width:1281px){
 .site-footer__newsletter{
-      margin-top: 45px;
+      margin-top: 2.8125rem;
       text-align: center
   }
   }
 @media(width:1366px){
 .site-footer__newsletter{
-      margin-top: 45px;
-      margin-left: 60px
+      margin-top: 2.8125rem;
+      margin-left: 3.75rem
   }
   }
 .site-footer__text--newsletter{
-    font-size: 15px;
+    font-size: 0.9375rem;
   }
 @media(min-width:768px) and (max-width: 991px){
 .site-footer__text--newsletter{
-      font-size: 17px
+      font-size: 1.0625rem
   }
   }
 @media(min-width:992px) and (max-width: 1280px){
 .site-footer__text--newsletter{
-      font-size: 16px
+      font-size: 1rem
   }
   }
 @media(min-width:1281px){
 .site-footer__text--newsletter{
-      margin-top: -15px
+      margin-top: -0.9375rem
   }
   }
 .site-footer__creator{
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
-    font-size: 11px;
-    padding: 10px;
-    margin-top: 22px;
+    font-size: 0.6875rem;
+    padding: 0.625rem;
+    margin-top: 1.375rem;
     background-color: black;
   }
 /* text-align: center; */
@@ -2860,10 +2933,19 @@ Instead edit gulp/templates/sprite */
 .site-footer__portfolio:hover{
     color: #fff;
   }
-.social-icons .icon{
+.social-icons__icon{
+    position: relative;
     display: inline-block;
-    margin-right: 11px;
-    margin-right: 12px;
+    margin: 0 5px 5px 5px;
+    width: 50px;
+  }
+.social-icons .icon{
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
   }
 .site-header {
     position: fixed;
@@ -2901,7 +2983,7 @@ Instead edit gulp/templates/sprite */
     position: static;
     -webkit-transform: none;
             transform: none;
-    padding-bottom: 11px
+    padding-bottom: 0.6875rem
 
 }
   }
@@ -2910,13 +2992,13 @@ Instead edit gulp/templates/sprite */
     position: static;
     -webkit-transform: none;
             transform: none;
-    padding-bottom: 11px
+    padding-bottom: 0.6875rem
 
 }
   }
 .site-menu ul{
     background-color: #000;
-    padding: 15px;
+    padding: 0.9375rem;
     display: -ms-flex;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2934,7 +3016,7 @@ Instead edit gulp/templates/sprite */
 .site-menu ul{
       background-color: inherit;
       padding: 0;
-      margin-top: -50px;
+      margin-top: -3.125rem;
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
           -ms-flex-direction: row;
@@ -2950,7 +3032,7 @@ Instead edit gulp/templates/sprite */
 .site-menu ul{
       background-color: inherit;
       padding: 0;
-      margin-top: -50px;
+      margin-top: -3.125rem;
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
           -ms-flex-direction: row;
@@ -2982,7 +3064,7 @@ Instead edit gulp/templates/sprite */
       -webkit-box-pack: end;
           -ms-flex-pack: end;
               justify-content: flex-end;
-      margin-left: 60px
+      margin-left: 3.75rem
 
   }
   }
@@ -2995,7 +3077,7 @@ Instead edit gulp/templates/sprite */
       -webkit-box-pack: end;
           -ms-flex-pack: end;
               justify-content: flex-end;
-      margin-left: 60px
+      margin-left: 3.75rem
 
   }
   }

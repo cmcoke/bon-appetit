@@ -10349,10 +10349,15 @@ var _StickyHeader = __webpack_require__(10);
 
 var _StickyHeader2 = _interopRequireDefault(_StickyHeader);
 
+var _MenuTabs = __webpack_require__(13);
+
+var _MenuTabs2 = _interopRequireDefault(_MenuTabs);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var mobileMenu = new _MobileMenu2.default();
 var stickyHeader = new _StickyHeader2.default();
+var menuTabs = new _MenuTabs2.default();
 
 /***/ }),
 /* 9 */
@@ -11640,6 +11645,52 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 }));
 
 
+
+/***/ }),
+/* 13 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _jquery = __webpack_require__(2);
+
+var _jquery2 = _interopRequireDefault(_jquery);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+var MenuTabs = function () {
+  function MenuTabs() {
+    _classCallCheck(this, MenuTabs);
+
+    this.events();
+  }
+
+  _createClass(MenuTabs, [{
+    key: 'events',
+    value: function events() {
+      (0, _jquery2.default)('.tab .tab__menu a').click(function (e) {
+        (0, _jquery2.default)('.tab .tab__menu a.current').removeClass('current');
+        (0, _jquery2.default)(this).addClass('current');
+        (0, _jquery2.default)('.tab section:not(:hidden)').hide();
+        (0, _jquery2.default)(this.hash).fadeIn(600);
+        e.preventDefault();
+      }).first().click();
+    }
+  }]);
+
+  return MenuTabs;
+}();
+
+exports.default = MenuTabs;
 
 /***/ })
 /******/ ]);

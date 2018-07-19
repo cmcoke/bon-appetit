@@ -14,8 +14,21 @@
 
   }
 
+  &--owner{
+    margin-bottom: 0;
+    font-weight: bolder;
+    font-size: 17px;
+  }
+
+  &--occupation{
+    margin-top: 0;
+    color: #555;
+    font-size: 0.875rem;
+  }
+
   &--critic{
     text-align: center;
+
   }
 
   &--reservation{
@@ -26,7 +39,7 @@
 
     @mixin atExLarge{
       color: #fff;
-      font-size: 18px;
+      font-size: 1.125rem;
     }
   }
 

@@ -12,13 +12,14 @@
   }
 
   &--reservation{
-    margin-top: 22px;
+    margin-top: 1.375rem;
+    cursor: pointer;
   }
 
   &--footer{
     display: block;
     padding: .75rem .2rem;
-    margin-top: 22px;
+    margin-top: 1.375rem;
     background-color: $yellow;
 
     &:hover{
@@ -27,14 +28,13 @@
 
     @mixin atMedium{
       text-align: center;
-      margin-left: 175px;
+      margin-left: 10.9375rem;
       width: 50%;
     }
 
     @mixin atLarge{
       text-align: center;
       width: 50%;
-      /* margin-left: 20px; */
     }
 
     @mixin atExLarge{
@@ -45,7 +45,7 @@
 
     @mixin atExLarge2{
       width: 100%;
-      margin-left:-2px;
+      margin-left:-0.125rem;
     }
   }
 

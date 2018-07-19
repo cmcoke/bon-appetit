@@ -41,6 +41,13 @@
     }
   }
 
+  &__menu a.current{
+    color: black;
+    background: $yellow;
+    padding: 1rem;
+    display: block;
+  }
+
   &__menu a{
     color: $yellow;
     background: black;
@@ -52,6 +59,8 @@
   &__menu a:hover{
     color: black;
     background: $yellow;
+    padding: 1rem;
+    display: block;
   }
 
 

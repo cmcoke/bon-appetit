@@ -4,16 +4,43 @@
 
   &__item{
     background-color: black;
-    padding: 0.8125rem;
+    padding-top:0.0625rem;
+    padding-left: 0.75rem;
   }
 
-  &--item-large-text{
-    margin: 0.4375rem 0 0.625rem 0;
+  &__item--name{
+    display: inline-block;
     color: #fff;
+    font-weight: 100;
+    font-size: 0.9375rem;
   }
 
-  &--item-small-text{
+  &__item--amount{
     color: $yellow;
+    font-size: 0.875rem;
+    margin-left: 8.125rem;
+
+    @mixin atSmall{
+      margin-left: 21.5625rem;
+    }
+
+    @mixin atMedium{
+      margin-left: 10.625rem;
+    }
+
+    @mixin atLarge{
+      margin-left: 2.8125rem;
+    }
+
+
+    @mixin atExLarge{
+      margin-left: 12.1875rem;
+    }
+
+    @mixin atExLarge2{
+      margin-left: 5.9375rem;
+    }
   }
+
 
 }
